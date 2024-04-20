@@ -7,7 +7,7 @@ public class Player_Transform_Translate : MonoBehaviour
 
     public Transform ObjectToTranslate;
 
-    float translateSpeed = 3f;
+    float translateSpeed = 10f;
 
     // Update is called once per frame
     void Update()
@@ -18,12 +18,12 @@ public class Player_Transform_Translate : MonoBehaviour
 
     void Translate()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             ObjectToTranslate.Translate(Vector3.forward * translateSpeed * Time.deltaTime);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             ObjectToTranslate.Translate(-Vector3.forward * translateSpeed * Time.deltaTime);
         }

@@ -13,7 +13,7 @@ public class Player_CharacterController_SimpleMove : MonoBehaviour
 
     //https://docs.unity3d.com/kr/2022.3/ScriptReference/CharacterController.SimpleMove.html
     [SerializeField]
-    float speed = 3.0F;
+    float speed = 10.0F;
     [SerializeField]
     float rotateSpeed = 1.0F;
 
