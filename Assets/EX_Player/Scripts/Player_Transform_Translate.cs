@@ -23,9 +23,19 @@ public class Player_Transform_Translate : MonoBehaviour
             ObjectToTranslate.Translate(Vector3.forward * translateSpeed * Time.deltaTime);
         }
 
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            ObjectToTranslate.Translate(Vector3.left * translateSpeed * Time.deltaTime);
+        }
+
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             ObjectToTranslate.Translate(-Vector3.forward * translateSpeed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            ObjectToTranslate.Translate(Vector3.right * translateSpeed * Time.deltaTime);
         }
     }
 }

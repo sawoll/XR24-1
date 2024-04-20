@@ -21,7 +21,7 @@ public class HW03_Part1_Collider1 : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         print("Panel2 Moving up");
         animator.SetInteger("Controll", 1);
