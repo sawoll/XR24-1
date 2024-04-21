@@ -26,7 +26,7 @@ public class Player_ConstrainHeadRotation : MonoBehaviour
         // YRotation --> left~right
         YRotation += XaxisRotation;
         YRotation = Mathf.Clamp(YRotation, -YRotationLimit, YRotationLimit);
-        print($"XRot: {XRotation}, YRot: {YRotation}");
+        //print($"XRot: {XRotation}, YRot: {YRotation}");
         ObjectToConstrainRotation.transform.localRotation = Quaternion.Euler(XRotation, YRotation, 0f);
     }
 }

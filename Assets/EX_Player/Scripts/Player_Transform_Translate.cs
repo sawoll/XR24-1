@@ -37,5 +37,6 @@ public class Player_Transform_Translate : MonoBehaviour
         {
             ObjectToTranslate.Translate(Vector3.right * translateSpeed * Time.deltaTime);
         }
+
     }
 }
