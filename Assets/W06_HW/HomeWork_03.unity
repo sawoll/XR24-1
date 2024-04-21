@@ -133,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1668916166542536004, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
       propertyPath: m_Constraints
-      value: 112
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1752055082410969504, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3701685459157451723, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7367483674601228553, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
       propertyPath: m_Enabled
@@ -188,7 +188,6 @@ PrefabInstance:
       value: Robot_Transform
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3701685459157451723, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
     - {fileID: 3134752851125802487, guid: 14c65489b6ecdb74a8267a7ec5b919f4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

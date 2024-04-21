@@ -23,5 +23,9 @@ public class Player_Transform_Rotate : MonoBehaviour
         {
             ObjectToRotate.Rotate(Vector3.up, rotationSpeed * 10 * Time.deltaTime);
         }
+        if (Input.GetKey(KeyCode.E))
+        {
+            ObjectToRotate.Rotate(Vector3.zero);
+        }
     }
 }
